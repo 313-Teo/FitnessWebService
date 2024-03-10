@@ -138,6 +138,7 @@ public class WebServiceApplication {
             responseMap.put("workout1", card.getWorkout1());
             responseMap.put("workout2", card.getWorkout2());
             responseMap.put("workout3", card.getWorkout3());
+            responseMap.put("account", user.getAccount());
             return ResponseEntity.ok(responseMap);
         } else {
             responseMap.put("error", "Scheda non trovata");

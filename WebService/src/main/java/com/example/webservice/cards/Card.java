@@ -26,6 +26,8 @@ public class Card {
     private String workout3;
 
     // Costruttori, getter e setter
+
+    // Getter e Setter per codice
     public String getCodice() {
         return codice;
     }
