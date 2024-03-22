@@ -31,7 +31,7 @@ public class User {
     @Column(name = "account")
     private String account;
 
-    // Costruttori, getter e setter
+    // Getter e setter
 
     // Getter e Setter per codice
     public String getCodice() {
